@@ -1,3 +1,6 @@
+## 詳細
+https://nektosact.com/
+
 ### 準備
 - `.git`と`.github/workflows/`を作成する
 
@@ -9,6 +12,15 @@
 
 ### Pull requestイベントとしてActionsを実行
 - `act pull_request`
+
+### scheduleイベントとしてActionsを実行
+- `act schedule`
+
+### workflow_dispatchイベントとしてActionsを実行
+- `act workflow_dispatch`
+
+### 特定のファイル指定
+- `act -W .github/workflows/sample.yml`
 
 ### キャッシュクリア
 - `rm -rf ~/.cache/act`
