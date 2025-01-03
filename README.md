@@ -6,3 +6,6 @@
 
 ### M１以上の場合
 - `act --container-architecture linux/amd64`
+
+### キャッシュクリア
+^ `rm -rf ~/.cache/act`
