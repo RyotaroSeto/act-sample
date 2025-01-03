@@ -1,6 +1,9 @@
 ## 詳細
 https://nektosact.com/
 
+### Sanple Exec
+- `act -s DOCKER_USERNAME=my-docker-username -s DOCKER_PASSWORD=my-docker-password`
+
 ### 準備
 - `.git`と`.github/workflows/`を作成する
 
